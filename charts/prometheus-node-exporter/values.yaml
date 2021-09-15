@@ -131,8 +131,7 @@ nodeSelector: {}
 #   beta.kubernetes.io/os: linux
 
 tolerations:
-  - effect: NoSchedule
-    operator: Exists
+  - operator: Exists
 
 ## Assign a PriorityClassName to pods if set
 # priorityClassName: ""
